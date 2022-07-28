@@ -95,7 +95,6 @@ nav .navbar-brand {
     background: #289BDE;
     color: #ffffff;
     border-radius: 5px;
-    
 }
 
 #register h5{
@@ -358,8 +357,7 @@ footer h5{
         max-width: 550px !important;
     }
     .card-body{
-        padding: 0;
-        padding-left: 10px; 
+        padding: 10px;
     }
 
     
