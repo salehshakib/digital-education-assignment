@@ -192,13 +192,16 @@
     <!-- main section -->
     <main class="container my-5" id="courses">
       <!-- courses header-->
-      <div class="text-center w-50 mx-auto course-header">
-        <h1 class="">Discover Our Popular Courses</h1>
-        <p>
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout.
-        </p>
-      </div>
+      <article>
+        <div class="text-center w-50 mx-auto course-header">
+          <h1 class="">Discover Our Popular Courses</h1>
+          <p>
+            It is a long established fact that a reader will be distracted by the
+            readable content of a page when looking at its layout.
+          </p>
+        </div>
+      </article>
+      
       <!-- course card section -->
       <section id="my-card" class="my-5">
         <div
@@ -366,6 +369,7 @@
           </p>
         </div>
         <div class="w-50 d-flex align-items-center justify-content-end pe-5">
+          <!-- modal -->
           <button
             type="button"
             class="btn btn-secondary px-4 py-2"
@@ -394,6 +398,7 @@
                     aria-label="Close"
                   ></button>
                 </div>
+                <!-- form -->
                 <div class="modal-body text-secondary"><form>
                   <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Email address</label>
@@ -426,10 +431,101 @@
             </div>
           </div>
         </div>
+      </section>
 
-        <!-- Button trigger modal -->
+      <!-- faq section -->
+      <section class="faq-section mx-auto">
+        <article class="text-center w-50 mx-auto">
+          <h1>Frequently Asked Questions</h1>
+          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        </article>
 
-        <!-- Modal -->
+        <div class="faq-accordian mx-auto w-75">
+          <div class="accordion my-5" id="accordionExample">
+              <div class="accordion-item mb-3 border-top">
+                  <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          What are differences between flexbox and grid?
+                      </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                          The basic difference between <strong>CSS Grid Layout</strong> and <strong>CSS Flexbox Layout</strong> is that flexbox was
+                          designed for layout in one dimension - either a row or a column. Grid was designed for
+                          two-dimensional layout - rows, and columns at the same time.
+                      </div>
+                  </div>
+              </div>
+              <div class="accordion-item mb-3 border-top">
+                  <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          What are the differences between bootstrap and tailwind?
+                      </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                          <strong>Bootstrap </strong>It is an open-source framework that is beginner-friendly and
+                          can be used to create web applications with any server-side Technology like Java, PHP,
+                          etc., and its responsive design allows platforms like Mobile phones, tablets, and
+                          computers. Bootstrap contains CSS and JavaScript-based design templates for typography,
+                          forms, buttons, navigation, icons, and other interface components. It is based on
+                          object-oriented CSS. Bootstrap helps to design and develop website templates quickly. <br>
+                          <strong>Tailwind CSS</strong> offers customizability and flexibility to transform the
+                          appearance and feel of the elements. It is a highly customizable, low-level CSS
+                          framework, and it provides all the building blocks the developer needs to build a
+                          fantastic interface for any website.
+                      </div>
+                  </div>
+              </div>
+              <div class="accordion-item mb-3 border-top">
+                  <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          What is CSS Box Model?
+                      </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                          The <strong>CSS box model</strong> is a container that contains multiple properties
+                          including borders, margin, padding, and the content itself. It is used to create the
+                          design and layout of web pages and can be used as a toolkit for customizing the layout
+                          of different elements. The web browser renders every element as a rectangular box
+                          according to the CSS box model.
+                      </div>
+                  </div>
+              </div>
+              <div class="accordion-item mb-3 border-top">
+                  <h2 class="accordion-header" id="headingFour">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          What is a semantic tag? Explain with example.
+                      </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                      data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                          The <strong>HTML Semantic Tag</strong> refers to the tags that provide meaning to an
+                          HTML page rather than just presentation. It makes HTML more comprehensible by better
+                          defining the different sections and layout of web pages. Some semantic tags are:
+                          <ul>
+                              <li><strong>article</strong></li>
+                              <li><strong>section</strong></li>
+                              <li><strong>header</strong></li>
+                              <li><strong>footer</strong></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+
       </section>
     </main>
 

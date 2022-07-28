@@ -129,6 +129,10 @@ nav .navbar-brand {
     .card-body{
         padding: 20px;
     }
+
+    .faq-section article{
+        width: 90% !important;
+    }
     
 }
 
@@ -149,6 +153,10 @@ nav .navbar-brand {
     .card-body{
         padding: 0;
         padding-left: 10px; 
+    }
+
+    .faq-section article{
+        width: 90% !important;
     }
 }
 
