@@ -18,6 +18,7 @@ nav .navbar-brand {
     color: #777777 !important;
 }
 
+
 .register-btn{
     color: #289BDE;
     border-color: #289BDE;
@@ -161,8 +162,14 @@ footer h5{
 
     .navbar a{
         font-weight: 600;
-        font-size: 25px;  
+        font-size: 20px;  
     }
+
+    .my-nav a{
+        font-size: 14px;
+    }
+
+    
     .navbar img{
         height: 24px !important;
     }
