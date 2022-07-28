@@ -159,10 +159,58 @@ footer h5{
 }
 
 @media screen and (max-width: 576px){
-    .carousel-inner img {
-        height: 100vh;
-        object-fit: cover;
+
+    .navbar a{
+        font-weight: 600;
+        font-size: 25px;  
     }
+    .navbar img{
+        height: 24px !important;
+    }
+    .carousel-inner img {
+        height: 40vh;
+        object-fit: cover;
+        
+    }
+    .btn-primary{
+        
+        font-weight: 600;
+        font-size: 16px !important;
+    }
+
+    .carousel-text h5{
+        font-weight: 600;
+        font-size: 20px;
+        padding: 0 !important;
+    }
+
+    .carousel-text p{
+        font-weight: 400;
+        font-size: 12px;
+        padding: 0 !important;
+    }
+
+    #courses h1{
+        font-size: 18px;
+    }
+    #courses p{
+        font-size: 14px;
+    }
+
+    .card-title{
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .card-text{
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .price {
+        font-weight: 600;
+        font-size: 18px;
+    }
+
 
     .course-header{
         width: 90% !important;
@@ -174,6 +222,22 @@ footer h5{
         padding: 20px;
     }
 
+    #register h5{
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .btn-secondary{
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    #register p{
+        font-weight: 400;
+        font-size: 14px;
+
+    }
+
     .faq-section article{
         width: 100% !important;
         padding: 0 !important;
@@ -187,24 +251,45 @@ footer h5{
 
     #register .my-article{
         width: 100% !important;
+        padding-bottom: 10px !important;
         
     }
     .faq-accordian{
         width: 100% !important;
     }
     
+    footer h1{
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    footer p{
+        font-weight: 400;
+        font-size: 14px;
+    }
 }
 
 
 @media screen and (min-width: 578px) and (max-width: 991px){
     .carousel-inner img {
-        height: 100vh;
+        height: 80vh;
         object-fit: cover;
         
     }
     .course-header{
         width: 90% !important;
     }
+
+    .carousel-text h5{
+        font-weight: 600;
+        font-size: 40px;
+    }
+
+    .carousel-text p{
+        font-weight: 400;
+        font-size: 16px;
+    }
+
     .card img{
         width: 100%;
     }
@@ -214,20 +299,54 @@ footer h5{
         padding-left: 10px; 
     }
 
-    .faq-section article{
-        width: 100% !important;
-        padding: 0 !important;
+    #courses article h1{
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    #course article p{
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .card-title{
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .card-text{
+        font-weight: 400;
+        font-size: 16px;    
+    }
+    .price{
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    #register h5{
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    #register p{
+        font-weight: 400;
+        font-size: 16px;
     }
 
     #register .my-btn{
         width: 100% !important;
         padding: 0 !important;
         margin-bottom: 20px;
+        font-weight: 600;
+        font-size: 30px;
     }
 
     #register .my-article{
         width: 100% !important;
-        
+    }
+
+    .faq-section article{
+        width: 100% !important;
+        padding: 0 !important;
     }
 
     .faq-accordian{
