@@ -3,18 +3,74 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
-
-nav {
-    color: #3e3e3e;
-    background: #e5e5e5;
-}
-
+/* navbar */
 nav .navbar-brand {
-    font-weight: 700;
-    font-size: 22px;
+    font-weight: 600;
+    font-size: 40px;
 }
 
-nav .nav-items {
-    font-weight: 500;
-    font-size: 16px;
+.my-nav {
+    font-weight: 400;
+    font-size: 18px;
 }
+
+.my-nav .nav-item a{
+    color: #777777 !important;
+}
+
+.register-btn{
+    color: #289BDE;
+    border-color: #289BDE;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* img slider */
+
+.my-carousel h5{
+    font-weight: 600;
+    font-size: 65px;
+}
+
+.my-carousel p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #F4F4F4 !important;
+}
+
+.carousel-caption{
+    top: 0;  
+}
+
+.get-start-btn button{
+    background: #289BDE !important;
+    border-color: #289BDE !important;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+
+/* courses */
+
+#courses h1{
+    font-weight: 600;
+    font-size: 45px;
+    margin-top: 6rem !important;
+    color: #1D1D1D !important;
+}
+
+#courses p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #777777 !important;
+}
+
+@media screen and (max-width: 576px){
+    .carousel-inner img {
+        height: 100vh;
+        object-fit: cover;
+    }
+    
+}
+
+

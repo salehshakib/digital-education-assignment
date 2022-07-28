@@ -1,77 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ed Guru</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ed Guru</title>
 
-    <!-- bootstrap cdn -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-      crossorigin="anonymous"
-    />
+  <!-- bootstrap cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
 
-    <!-- css link -->
-    <link rel="stylesheet" href="css/stylesheet.css" />
+  <!-- css link -->
+  <link rel="stylesheet" href="css/stylesheet.css" />
 
-    <!-- font awesome icon-->
-    <script
-      src="https://kit.fontawesome.com/24b38608d4.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <!-- header section -->
-    <header>
-      <!-- navbar section -->
-      <nav class="navbar navbar-expand-lg navbar-expand-md fixed-top">
-        <div class="container my-3">
-          <a class="navbar-brand" href="#">ED Guru</a>
-          <button
-            class="navbar-toggler border border-0"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+  <!-- font awesome icon-->
+  <script src="https://kit.fontawesome.com/24b38608d4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- header section -->
+  <header>
+    <!-- navbar section -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container my-3 ms-auto">
+        <a class="navbar-brand" href="#" style="color: #4a4a4a">ED <span class="text-primary">Guru</span>
+        </a>
+        <button class="navbar-toggler border border-0" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <img src="icons/open-menu.png" alt="" style="height: 30px" />
+          <!-- <span><i class="fa fa-bars"></i></span> -->
+        </button>
+
+        <div class="collapse navbar-collapse my-nav justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item mx-lg-3">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item mx-lg-3">
+              <a class="nav-link active" aria-current="page" href="#courses">Courses</a>
+            </li>
+            <li class="nav-item mx-lg-3">
+              <a class="nav-link active" href="#">Deals</a>
+            </li>
+            <li class="nav-item mx-lg-3">
+              <a class="nav-link active" href="#">Success</a>
+            </li>
+            <li class="nav-item mx-lg-3">
+              <a class="nav-link active" href="#">About</a>
+            </li>
+            <li class="nav-item mx-lg-3">
+              <a class="nav-link active" href="#">Register</a>
+            </li>
+          </ul>
+        </div>
+
+        <button type="button" class="btn register-btn d-none d-sm-none d-md-none d-lg-block px-4">
+          Register
+        </button>
+      </div>
+    </nav>
+
+    <!-- image slider section -->
+    <section id="img-slider" class="banner-section container">
+      <div id="carouselExampleCaptions" class="carousel slide my-carousel" data-bs-ride="carousel">
+        
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/cover/resized/cover-1.png" class="img-fluid w-100" style="filter: brightness(50%)"
+              alt="..." />
+            <div class="carousel-caption d-flex flex-column justify-content-center">
+              <div class="carousel-text">
+                <h5 class="py-3">Get Started Digital Learning</h5>
+                <p class="py-3 px-5">
+                  It is a long established fact that a reader will be
+                  distracted by the readable content of a page when looking at
+                  its layout.
+                </p>
+              </div>
+              <div class="get-start-btn">
+                <button type="button" class="btn btn-primary px-4 py-2">
+                  Get Started
+                </button>
+              </div>
+            </div>
+          </div>
           >
-            <img src="icons/open-menu.png" alt="" style="height: 30px" />
-            <!-- <span><i class="fa fa-bars"></i></span> -->
-          </button>
 
-          <div class="collapse navbar-collapse my-nav" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#about-us"
-                  >About Us</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Subscribe</a>
-              </li>
-            </ul>
+          <div class="carousel-item">
+            <img src="images/cover/resized/cover-2.png" class="img-fluid w-100" style="filter: brightness(50%)"
+              alt="..." />
+            <div class="carousel-caption d-flex flex-column justify-content-center">
+              <div class="carousel-text">
+                <h5 class="py-3">Get Started Digital Learning</h5>
+                <p class="py-3 px-5">
+                  It is a long established fact that a reader will be
+                  distracted by the readable content of a page when looking at
+                  its layout.
+                </p>
+              </div>
+              <div class="get-start-btn">
+                <button type="button" class="btn btn-primary px-4 py-2">
+                  Get Started
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/cover/resized/cover-3.png" class="img-fluid w-100" style="filter: brightness(50%)"
+              alt="..." />
+            <div class="carousel-caption d-flex flex-column justify-content-center">
+              <div class="carousel-text">
+                <h5 class="py-3">Get Started Digital Learning</h5>
+                <p class="py-3 px-5">
+                  It is a long established fact that a reader will be
+                  distracted by the readable content of a page when looking at
+                  its layout.
+                </p>
+              </div>
+              <div class="get-start-btn">
+                <button type="button" class="btn btn-primary px-4 py-2">
+                  Get Started
+                </button>
+              </div>
+            </div>
           </div>
         </div>
-      </nav>
-    </header>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="fa-solid fa-chevron-left font-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="fa-solid fa-chevron-right font-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
 
-    <h1>Hello World</h1>
+<!-- main section -->
+    <main class="container my-5" id="courses">
+      <!-- courses -->
+      <div class="text-center w-50 mx-auto">
+        <h1 class="">
+        Discover Our Popular Courses
+      </h1>
+      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p></div>
+      
+      <section id="card">
+        <div class="container text-center">
+          <div class="row row-cols-2">
+            <div class="col border border-2">
+              
 
-    <!-- bootstrap script -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+            Column
+            </div>
+
+
+
+
+
+            <div class="col border border-2">Column</div>
+            <div class="col border border-2">Column</div>
+            <div class="col border border-2">Column</div>
+            <div class="col border border-2">Column</div>
+            <div class="col border border-2">Column</div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </header>
+
+  <!-- bootstrap script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+</body>
 </html>
