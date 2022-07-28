@@ -191,6 +191,8 @@ footer h5{
 
     #courses h1{
         font-size: 18px;
+        margin-top: 10px !important;
+        
     }
     #courses p{
         font-size: 14px;
@@ -271,7 +273,7 @@ footer h5{
 
 @media screen and (min-width: 578px) and (max-width: 991px){
     .carousel-inner img {
-        height: 80vh;
+        height: 50vh;
         object-fit: cover;
         
     }
@@ -300,6 +302,7 @@ footer h5{
     #courses article h1{
         font-weight: 600;
         font-size: 30px;
+        margin-top: 20px !important;
     }
 
     #course article p{
