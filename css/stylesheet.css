@@ -38,9 +38,7 @@ nav .navbar-brand {
     color: #F4F4F4 !important;
 }
 
-.carousel-caption{
-    top: 0;  
-}
+
 
 .get-start-btn button{
     background: #289BDE !important;
@@ -65,11 +63,104 @@ nav .navbar-brand {
     color: #777777 !important;
 }
 
+/* card */
+
+.card {
+    padding: 0; 
+}
+
+.card-body{
+    padding: 0;
+}
+
+.card-title{
+    font-weight: 600px;
+    font-size: 25px;
+    color: #4A4A4A;
+}
+.card-text{
+    font-weight: 400px;
+    font-size: 16px;
+    color: #777777;
+    margin-bottom: 8;
+}
+.price{
+    font-weight: 600px;
+    font-size: 18px;
+    color: #289BDE;
+    margin-bottom: 0;
+}
+/* register section */
+#register{
+    background: #289BDE;
+    color: #ffffff;
+    border-radius: 5px;
+    
+}
+
+#register h5{
+    font-weight: 600;
+    font-size: 45px;
+
+}
+#register p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff !important;
+
+}
+.btn-secondary{
+    font-weight: 600;
+    font-size: 20px;
+}
+
 @media screen and (max-width: 576px){
     .carousel-inner img {
         height: 100vh;
         object-fit: cover;
     }
+
+    .course-header{
+        width: 90% !important;
+    }
+    .card img{
+        width: 100%;
+    }
+    .card-body{
+        padding: 20px;
+    }
+    
+}
+
+
+@media screen and (min-width: 578px) and (max-width: 991px){
+    .carousel-inner img {
+        height: 100vh;
+        object-fit: cover;
+        
+    }
+    .course-header{
+        width: 90% !important;
+    }
+    .card img{
+        width: 100%;
+    }
+
+    .card-body{
+        padding: 0;
+        padding-left: 10px; 
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1400px){
+    .card{
+        max-width: 550px !important;
+    }
+    .card-body{
+        padding: 0;
+        padding-left: 10px; 
+    }
+
     
 }
 
