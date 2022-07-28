@@ -114,6 +114,50 @@ nav .navbar-brand {
     font-size: 20px;
 }
 
+/* footer */
+footer {
+    background-color: #161616;
+    color: #fff;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+}
+
+.line {
+    height: 0;
+    width: 100%;
+    margin: 50px auto;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer p{
+    font-weight: 400;
+    font-size: 16px !important;
+    color: #E8E8E8 !important;
+}
+
+footer h5{
+    font-weight: 400;
+    font-size: 15px !important;
+    color: #E8E8E8 !important;
+}
+
+.social {
+    text-align: center;
+    
+}
+
+.social i {
+    padding: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.social a {
+    text-decoration: none;
+    color: #fff;
+}
+
 @media screen and (max-width: 576px){
     .carousel-inner img {
         height: 100vh;
